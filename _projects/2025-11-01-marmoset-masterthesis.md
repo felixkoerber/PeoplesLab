@@ -1,6 +1,6 @@
 ---
 title: 'Marmoset Auditory Processing Networks'
-subtitle: 'Spectral Mutual Information'
+subtitle: 'Spectral Transfer Entropy reveals Auditory Networks'
 date: 2025-11-01 00:00:00
 description: This is a project introduction to Masterthesis of Felix Körber at PeoplesLab.
 featured_image: '/images/Felix/Marmoset_Overview.png'
