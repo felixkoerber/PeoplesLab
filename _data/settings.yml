@@ -1,7 +1,7 @@
 basic_settings:
   site_title: PeoplesLab
   favicon_image: /PeoplesLab/images/favicon.png
-  description: Auditory Perception and Cognition
+
 
 header_settings:
   logo_image: 
