@@ -6,7 +6,7 @@ description:
 featured_image: '/images/demo/demo-square.jpg'
 ---
 
-![](/images/demo/demo-square.jpg)
+![](/PeoplesLab/images/demo/demo-square.jpg)
 
 ## Background
 - Spoken language conveys information on multiple timescales (e.g., syllables, words, sentences)
@@ -16,7 +16,7 @@ featured_image: '/images/demo/demo-square.jpg'
 
 ## Processing
 
-![](/images/Felix/wunderland_study.png)
+![](/PeoplesLab/images/Felix/wunderland_study.png)
 
 ## Data Collection
 - Data will be collected using a 64 Active Electrode EEG setup 

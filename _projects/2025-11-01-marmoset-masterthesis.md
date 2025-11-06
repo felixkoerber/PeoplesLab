@@ -6,7 +6,7 @@ description: This is a project introduction to Masterthesis of Felix Körber at 
 featured_image: '/images/Felix/Marmoset_Overview.png'
 ---
 
-![](/images/Felix/Marmoset_Overview.png)
+![](/PeoplesLab/images/Felix/Marmoset_Overview.png)
 
 ## Background
 - Mismatch Negativity (MMN) is an Event-Related Potential (ERP) component present when sensory stimuli violate expectations
@@ -16,7 +16,7 @@ featured_image: '/images/Felix/Marmoset_Overview.png'
 
 ## Processing
 
-![](/images/Felix/Marmoset_Processing.png)
+![](/PeoplesLab/images/Felix/Marmoset_Processing.png)
 
 ## Mismatch Negativity
 - Negative Peaks for Standards and Deviants at around 60ms after Stimulus Onset
