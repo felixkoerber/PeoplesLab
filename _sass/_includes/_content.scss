@@ -344,13 +344,14 @@
 
 .team-profile__top {
 	display: block;
-	margin-bottom: 30px;
+	margin: 0 auto 30px;
 
 	@include mq(tabletp) {
 		display: grid;
 		grid-template-columns: minmax(200px, 280px) minmax(150px, 320px);
 		gap: 15px;
-		margin-bottom: 40px;
+		margin: 0 auto 40px;
+		width: fit-content;
 	}
 }
 
@@ -374,10 +375,7 @@
 }
 
 .team-profile__meta {
-	padding: 18px;
-	border: 1px solid $border-color;
-	border-radius: 12px;
-	background: $background-alt-color;
+	padding: 0;
 
 	p {
 		margin: 0;
