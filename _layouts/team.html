@@ -2,17 +2,6 @@
 layout: default
 ---
 
-<section class="intro">
-
-	<div class="team-profile__main">
-
-		<h1>{{ page.name }}</h1>
-		<p>{{ page.research_focus }}</p>
-
-	</div>
-
-</section>
-
 <section class="single">
 	<div class="content-wrap team-profile__wrap">
 		<div class="team-profile__top">
@@ -24,6 +13,8 @@ layout: default
 
 			{% if page.role or page.department or page.institution or page.phone or page.email or page.website or page.orcid %}
 			<div class="team-profile__meta">
+				<h1>{{ page.name }}</h1>
+				<p>{{ page.research_focus }}</p>
 				{% if page.role %}<p><strong>Role:</strong> {{ page.role }}</p>{% endif %}
 				{% if page.department %}<p><strong>Department:</strong> {{ page.department }}</p>{% endif %}
 				{% if page.institution %}<p><strong>Institution:</strong> {{ page.institution }}</p>{% endif %}
