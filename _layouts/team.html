@@ -14,7 +14,30 @@ layout: default
 </section>
 
 <section class="single">
+	<div class="content-wrap team-profile__wrap">
+		<aside class="team-profile__aside">
+			{% if page.featured_image %}
+			<div class="team-profile__image-wrap">
+				<img src="{{ page.featured_image | relative_url }}" alt="{{ page.name }}" class="team-profile__image">
+			</div>
+			{% endif %}
 
-	{{ page.content }}
+			{% if page.role or page.department or page.institution or page.phone or page.email or page.website or page.orcid %}
+			<div class="team-profile__meta">
+				{% if page.role %}<p><strong>Role:</strong> {{ page.role }}</p>{% endif %}
+				{% if page.department %}<p><strong>Department:</strong> {{ page.department }}</p>{% endif %}
+				{% if page.institution %}<p><strong>Institution:</strong> {{ page.institution }}</p>{% endif %}
+				{% if page.phone %}<p><strong>Phone:</strong> {{ page.phone }}</p>{% endif %}
+				{% if page.email %}<p><strong>Email:</strong> <a href="mailto:{{ page.email }}">{{ page.email }}</a></p>{% endif %}
+				{% if page.website %}<p><strong>Website:</strong> <a href="{{ page.website }}" target="_blank" rel="noopener noreferrer">{{ page.website }}</a></p>{% endif %}
+				{% if page.orcid %}<p><strong>ORCID:</strong> <a href="{{ page.orcid }}" target="_blank" rel="noopener noreferrer">{{ page.orcid }}</a></p>{% endif %}
+			</div>
+			{% endif %}
+		</aside>
+
+		<article class="team-profile__main">
+			{{ page.content }}
+		</article>
+	</div>
 
 </section>

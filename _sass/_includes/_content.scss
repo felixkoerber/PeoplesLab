@@ -328,3 +328,109 @@
 		height: 100%;
 	}
 }
+
+
+// - - - - - - - - - - - - - - - - - -
+
+// Team profile
+
+// - - - - - - - - - - - - - - - - - -
+
+.team-profile__wrap {
+	display: block;
+	max-width: 90%;
+	margin: 0 auto;
+
+	@include mq(tabletp) {
+		display: grid;
+		grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
+		gap: 40px;
+		align-items: start;
+	}
+}
+
+.team-profile__aside {
+	margin-bottom: 30px;
+
+	@include mq(tabletp) {
+		position: sticky;
+		top: 25px;
+		margin-bottom: 0;
+	}
+}
+
+.team-profile__image-wrap {
+	overflow: hidden;
+	border-radius: 12px;
+	background: $background-alt-color;
+	margin: 0 auto 20px;
+	max-width: 360px;
+}
+
+.team-profile__image {
+	display: block;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.team-profile__meta {
+	padding: 18px;
+	border: 1px solid $border-color;
+	border-radius: 12px;
+	background: $background-alt-color;
+
+	p {
+		margin: 0;
+		padding: 0;
+		max-width: none;
+		font-size: $p-small;
+		line-height: 1.5;
+		word-break: break-word;
+
+		@include mq(tabletp) {
+			font-size: $p-medium*0.9;
+		}
+	}
+
+	p + p {
+		margin-top: 10px;
+	}
+}
+
+.single .team-profile__main {
+	h1, h2, h3, h4, h5, h6, p, ul, ol {
+		max-width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	h1 {
+		font-size: $h2-small;
+
+		@include mq(tabletp) {
+			font-size: $h2-medium;
+		}
+
+		@include mq(laptop) {
+			font-size: $h2-large;
+		}
+	}
+
+	h2 {
+		margin-top: 26px;
+		font-size: $h4-small;
+
+		@include mq(tabletp) {
+			font-size: $h4-medium;
+		}
+
+		@include mq(laptop) {
+			font-size: $h4-large;
+		}
+	}
+
+	p, ul, ol {
+		max-width: 68ch;
+	}
+}
