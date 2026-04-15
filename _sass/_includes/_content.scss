@@ -5,6 +5,9 @@
 // - - - - - - - - - - - - - - - - - -
 
 .intro {
+	max-width: 68ch;
+	margin: 0 auto;
+	text-align: center;
 	
 	h1 {
 		
@@ -357,7 +360,6 @@
 
 .team-profile__image-wrap {
 	overflow: hidden;
-	border-radius: 12px;
 	background: $background-alt-color;
 	margin: 0 auto 20px;
 	max-width: 360px;
