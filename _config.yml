@@ -1,4 +1,4 @@
-site: People's Lab
+site: Peoples Lab
 
 url: 
 baseurl: 
@@ -13,6 +13,9 @@ collections:
   projects:
     output: true
     permalink: /project/:slug
+  team:
+    output: true
+    permalink: /team/:slug
 
 defaults:
   -
@@ -38,6 +41,12 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  -
+    scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "team"
 
 markdown: kramdown
 
