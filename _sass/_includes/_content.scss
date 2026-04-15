@@ -345,13 +345,13 @@
 .team-profile__top {
 	display: block;
 	margin: 0 auto 30px;
+	max-width: 68ch;
 
 	@include mq(tabletp) {
 		display: grid;
 		grid-template-columns: minmax(200px, 280px) minmax(150px, 320px);
 		gap: 15px;
 		margin: 0 auto 40px;
-		width: fit-content;
 	}
 }
 
