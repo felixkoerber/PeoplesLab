@@ -14,7 +14,7 @@
 	}
 
 	p {
-
+		margin: 0;
 	}
 }
 
@@ -340,22 +340,17 @@
 	display: block;
 	max-width: 90%;
 	margin: 0 auto;
-
-	@include mq(tabletp) {
-		display: grid;
-		grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
-		gap: 40px;
-		align-items: start;
-	}
 }
 
-.team-profile__aside {
+.team-profile__top {
+	display: block;
 	margin-bottom: 30px;
 
 	@include mq(tabletp) {
-		position: sticky;
-		top: 25px;
-		margin-bottom: 0;
+		display: grid;
+		grid-template-columns: minmax(200px, 280px) minmax(150px, 320px);
+		gap: 15px;
+		margin-bottom: 40px;
 	}
 }
 
@@ -365,6 +360,10 @@
 	background: $background-alt-color;
 	margin: 0 auto 20px;
 	max-width: 360px;
+
+	@include mq(tabletp) {
+		margin: 0;
+	}
 }
 
 .team-profile__image {

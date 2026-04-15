@@ -15,7 +15,7 @@ layout: default
 
 <section class="single">
 	<div class="content-wrap team-profile__wrap">
-		<aside class="team-profile__aside">
+		<div class="team-profile__top">
 			{% if page.featured_image %}
 			<div class="team-profile__image-wrap">
 				<img src="{{ page.featured_image | relative_url }}" alt="{{ page.name }}" class="team-profile__image">
@@ -33,7 +33,7 @@ layout: default
 				{% if page.orcid %}<p><strong>ORCID:</strong> <a href="{{ page.orcid }}" target="_blank" rel="noopener noreferrer">{{ page.orcid }}</a></p>{% endif %}
 			</div>
 			{% endif %}
-		</aside>
+		</div>
 
 		<article class="team-profile__main">
 			{{ page.content }}
