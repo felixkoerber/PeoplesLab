@@ -343,31 +343,27 @@
 	display: block;
 	max-width: 90%;
 	margin: 0 auto;
+}
+
+.team-profile__top {
+	display: block;
+	margin: 0 auto 30px;
+	max-width: 68ch;
 
 	@include mq(tabletp) {
 		display: grid;
-		grid-template-columns: minmax(200px, 280px) minmax(0, 1fr);
-		gap: 40px;
-		align-items: start;
-	}
-}
-
-.team-profile__sidebar {
-	margin-bottom: 30px;
-
-	@include mq(tabletp) {
-		position: sticky;
-		top: 25px;
-		margin-bottom: 0;
+		grid-template-columns: minmax(200px, 280px) minmax(150px, 320px);
+		gap: 15px;
+		margin: 0 auto 40px;
 	}
 }
 
 .team-profile__image-wrap {
 	margin: 0 auto 20px;
-	max-width: 200px;
+	max-width: 360px;
 
 	@include mq(tabletp) {
-		margin: 0 auto 20px;
+		margin: 0;
 	}
 }
 
@@ -380,11 +376,6 @@
 
 .team-profile__meta {
 	padding: 0;
-	text-align: center;
-
-	@include mq(tabletp) {
-		text-align: left;
-	}
 
 	p {
 		margin: 0;
@@ -395,7 +386,7 @@
 		word-break: break-word;
 
 		@include mq(tabletp) {
-			font-size: $p-small*0.95;
+			font-size: $p-medium*0.9;
 		}
 	}
 
