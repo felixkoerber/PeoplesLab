@@ -9,10 +9,14 @@ header_settings:
 
 menu_settings:
   menu_items:
+    - title: 'Team'
+      url: '/team'
     - title: 'Projects'
       url: '/'
-    - title: 'Blog'
-      url: '/blog/'
+    - title: 'Grants'
+      url: '/grants'
+    - title: 'Publications'
+      url: '/publications'
     - title: 'About'
       url: '/about'
     - title: 'Contact'
