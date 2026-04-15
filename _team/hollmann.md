@@ -7,6 +7,4 @@ institution: 'Goethe University Frankfurt'
 email: 'j.hollmann@em.uni-frankfurt.de'
 ---
 
-# Profile
-
 Jannika Hollmann is a master's student and research assistant at the People's Lab, currently studying clinical psychology and psychotherapy. Her research focuses on language processing in natural conversations. Currently, she investigates the continuity of speech across languages.

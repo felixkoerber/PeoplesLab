@@ -8,8 +8,6 @@ institution: 'Goethe University Frankfurt'
 email: 'ernst@psych.uni-frankfurt.de'
 ---
 
-# Profile
-
 Michael Ernst is a PhD student and research assistant in the People's Lab.
 With a background in neuro- and clinical psychology, he is interested in the dynamics of neural representation and information processing.
 
