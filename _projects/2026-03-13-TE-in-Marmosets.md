@@ -3,7 +3,7 @@ title: 'Thesis - Spectral Transfer Entropy Reveals Predictive-Coding Network Dyn
 subtitle: 'Felix Körber, Cosimo Iaia, Alessandro Tavano'
 date: '2026-03-13 00:00:00'
 description: 
-featured_image: '/images/Felix/results_prestim.png'
+featured_image: '/images/Felix/Results_Prestim.png'
 ---
 
 

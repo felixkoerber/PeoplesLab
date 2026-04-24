@@ -3,7 +3,6 @@ project_name: "A new framework for understanding the Dynamic Rhythms and Decodin
 Applicant: "Dr. Alessandro Tavano"
 Subject_Area: "General and Comparative Linguistics, Experimental Linguistics, Typology, Non-European Languages, Biological Psychology and Cognitive Neuroscience"
 Term: "since 2023"
-featured_image: "/images/demo/demo-landscape.jpg"
 Project identifier: "Deutsche Forschungsgemeinschaft (DFG) - Project number 510229904"
 DFG Programme: "Research Grants"
 International Connection: "France"
