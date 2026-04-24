@@ -29,6 +29,34 @@
 	}
 }
 
+.single-featured {
+	padding: 0 30px;
+	margin: 15px auto 0;
+
+	@include mq(tabletp) {
+		max-width: 80%;
+		padding: 0;
+	}
+}
+
+.single-featured__media {
+	margin: 0 auto;
+	max-width: 900px;
+}
+
+.single-featured__media img {
+	display: block;
+	width: 100%;
+	max-height: clamp(180px, 30vh, 320px);
+	object-fit: cover;
+	object-position: center;
+	border-radius: 4px;
+}
+
+.single--with-featured {
+	padding-top: 10px;
+}
+
 .single {
 
 	h1, h2, h3, h4, h5, h6, p, ul, ol {

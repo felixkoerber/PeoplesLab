@@ -1,6 +1,7 @@
 ---
 name: 'Jannika Hollmann (B.Sc.)'
 research_focus: 'Language Processing in Natural Conversations'
+featured_image: '/images/PPLS_Lab_colour.png'
 role: 'Research Assistant'
 department: 'Department of Psychology'
 institution: 'Goethe University Frankfurt'

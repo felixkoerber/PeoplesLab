@@ -13,7 +13,19 @@ layout: default
 
 </section>
 
-<section class="single">
+{% if page.featured_image %}
+<section class="single-featured">
+
+	<div class="wrap">
+		<figure class="single-featured__media">
+			<img src="{{ page.featured_image }}" alt="{{ page.title }} featured image" />
+		</figure>
+	</div>
+
+</section>
+{% endif %}
+
+<section class="single{% if page.featured_image %} single--with-featured{% endif %}">
 
 	{{ page.content }}
 
