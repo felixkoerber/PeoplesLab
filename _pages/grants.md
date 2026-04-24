@@ -5,7 +5,6 @@ permalink: /grants
 ---
 
 <section class="portfolio">
-
 	<section class="single">
 		{% for grant in site.grants reversed %}
 		<h2><a href="{{ grant.url | relative_url }}">{{ grant.project_name | default: grant.title }}</a></h2>
@@ -14,5 +13,4 @@ permalink: /grants
 		<hr>
 		{% endfor %}
 	</section>
-
 </section>

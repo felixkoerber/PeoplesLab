@@ -111,53 +111,6 @@
 	}
 }
 
-.grant-single {
-	padding-top: 20px;
-}
-
-.grant-info {
-	margin: 0 auto 24px;
-
-	h3,
-	ul {
-		margin-left: auto;
-		margin-right: auto;
-		padding-left: 30px;
-		padding-right: 30px;
-		max-width: 500px;
-
-		@include mq(tabletp) {
-			padding-left: 0;
-			padding-right: 0;
-			max-width: 70%;
-		}
-
-		@include mq(tabletl) {
-			max-width: 65%;
-		}
-
-		@include mq(laptop) {
-			max-width: 60%;
-		}
-	}
-
-	h3 {
-		margin-bottom: 10px;
-	}
-}
-
-.grant-info__list {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-
-	li {
-		margin: 8px 0;
-		padding: 8px 0;
-		border-bottom: 1px solid $border-color;
-	}
-}
-
 .single {
 
 	h1, h2, h3, h4, h5, h6, p, ul, ol {

@@ -23,7 +23,7 @@ menu_settings:
       url: '/contact'
 
 footer_settings:
-  logo_image: "/images/PPLS_Lab_colour.png"
+  logo_image: 
   logo_width: 90
   footer_tagline: People's Lab.
 
