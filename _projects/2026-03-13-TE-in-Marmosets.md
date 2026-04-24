@@ -1,7 +1,7 @@
 ---
-title: 'Thesis: Spectral Transfer Entropy Reveals Predictive-Coding Network Dynamics of Auditory Deviance Detection in Common Marmosets'
+title: 'Thesis - Spectral Transfer Entropy Reveals Predictive-Coding Network Dynamics of Auditory Deviance Detection in Common Marmosets'
 subtitle: 'Felix Körber, Cosimo Iaia, Alessandro Tavano'
-date: 2026-13-03 00:00:00
+date: '2026-03-13 00:00:00'
 description: 
 featured_image: '/images/Felix/Marmoset_Overview.png'
 ---
