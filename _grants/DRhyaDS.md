@@ -1,0 +1,15 @@
+---
+project_name: "A new framework for understanding the Dynamic Rhythms and Decoding of Speech"
+Applicant: "Dr. Alessandro Tavano"
+Subject_Area: "General and Comparative Linguistics, Experimental Linguistics, Typology, Non-European Languages, Biological Psychology and Cognitive Neuroscience"
+Term: "since 2023"
+Project identifier: "Deutsche Forschungsgemeinschaft (DFG) - Project number 510229904"
+---
+
+# Project Description
+When listening to speech sounds, for example during a conversation, our brain first tries to isolate the attended speech from other sound sources, and then it tries to track its dynamics. How do we successfully track and comprehend speech in naturalistic situations? The current hypothesis is that the human brain entrains to slow temporal modulations of speech running at about 3-4 Hz (cycles per second). However, this approach is not sufficient to capture the dynamics of spontaneous speech, as speech rhythms are highly irregular due silences, breaks and restarts, and highly variable across speakers, speaking styles and language characteristics. Our overarching research hypothesis is that speech rhythm perception by the human brain is far from a one-to-one association between particular modulation frequency in the speech signal and linguistic units: the rhythmic patterns that give rise to the perception of a sequence of phonemes, syllables or words show in fact a very large variability across stimuli and across time points (lack of invariance problem). Hence, we challenge the assumption that there exists a special rhythm within a narrow frequency range for entraining to spoken human languages, and propose a new framework based on cutting-edge psychophysics and neural analyses, in which those dynamics are not considered a hindrance, but rather a feature of the signal. We aim at investigating: 1) the mechanisms by which slow temporal modulations in speech change utterance by utterance, at an individual participant level; 2) the effect of language-specific temporal characteristics on speech dynamics, using French as an example of syllable-timed language, and German as an example of stress-timed language. 3) how the human brain tracks and encodes such dynamics, including interruptions. The project's three main lines of research feed into one another, and provide a cohesive and timed workflow. Crossing the disciplinary borders between speech signal processing, psycholinguistics and cognitive neuroscience, the output of the DRhyaDS project has the potential to profoundly change both the theoretical tenets of successful speech perception, and the best practices in spontaneous speech analysis. For this to be realised, the expertise within the Franco-German consortium combines cutting-edge psychophysics from the French side and novel neural data analyses from the German side -, as well as the possibility of directly testing native speakers of both French and German languages at each stage of the project. 
+
+**DFG Programme**: Research Grants
+**International Connection**: France
+**Co-Investigator Professor**: Dr. Christian Fiebach
+**Cooperation Partner**: Dr. Leo Varnet 
