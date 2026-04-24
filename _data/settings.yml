@@ -4,7 +4,7 @@ basic_settings:
 
 
 header_settings:
-  logo_image: "/images/PPLS_Lab_colour.png"
+  logo_image: "/PeoplesLab/images/PPLS_Lab_colour.png"
   logo_width: 90
 
 menu_settings:
