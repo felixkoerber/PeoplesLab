@@ -10,22 +10,11 @@
 
 .header {
 	margin-top: 40px;
-
-	@include mq(tabletp) {
-		margin-top: 40px;
-	}
-
-	@include mq(tabletl) {
-		margin-top: 40px;
-	}
-
-	@include mq(laptop) {
-		margin-top: 40px;
-	}
 }
 
 .header__logo {
 	display: block;
+	float:none;
 	width: $logo-width;
 	max-width: $logo-width;
 }
