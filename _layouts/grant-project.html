@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<section class="grant-hero">
+	<div class="wrap">
+		{% if page.featured_image %}
+		<figure class="grant-hero__media">
+			<img src="{{ page.featured_image }}" alt="{{ page.project_name | default: page.title }} header image" />
+		</figure>
+		{% endif %}
+
+		<div class="grant-hero__title">
+			<h1>{{ page.project_name | default: page.title }}</h1>
+			{% if page.Applicant or page.applicant %}
+			<p>{{ page.Applicant | default: page.applicant }}</p>
+			{% endif %}
+		</div>
+	</div>
+</section>
+
+<section class="single grant-single">
+	{% if page.Subject_Area or page.subject_area or page.Term or page.term or page['Project identifier'] or page.project_identifier or page['DFG Programme'] or page.dfg_programme or page['International Connection'] or page.international_connection or page['Co-Investigator Professor'] or page.co_investigator_professor or page['Cooperation Partner'] or page.cooperation_partner %}
+	<div class="grant-info wrap">
+		<h3>Important Information</h3>
+		<ul class="grant-info__list">
+			{% if page.Subject_Area or page.subject_area %}<li><strong>Subject area:</strong> {{ page.Subject_Area | default: page.subject_area }}</li>{% endif %}
+			{% if page.Term or page.term %}<li><strong>Term:</strong> {{ page.Term | default: page.term }}</li>{% endif %}
+			{% if page['Project identifier'] or page.project_identifier %}<li><strong>Project identifier:</strong> {{ page['Project identifier'] | default: page.project_identifier }}</li>{% endif %}
+			{% if page['DFG Programme'] or page.dfg_programme %}<li><strong>DFG programme:</strong> {{ page['DFG Programme'] | default: page.dfg_programme }}</li>{% endif %}
+			{% if page['International Connection'] or page.international_connection %}<li><strong>International connection:</strong> {{ page['International Connection'] | default: page.international_connection }}</li>{% endif %}
+			{% if page['Co-Investigator Professor'] or page.co_investigator_professor %}<li><strong>Co-investigator professor:</strong> {{ page['Co-Investigator Professor'] | default: page.co_investigator_professor }}</li>{% endif %}
+			{% if page['Cooperation Partner'] or page.cooperation_partner %}<li><strong>Cooperation partner:</strong> {{ page['Cooperation Partner'] | default: page.cooperation_partner }}</li>{% endif %}
+		</ul>
+	</div>
+	{% endif %}
+
+	{{ page.content }}
+</section>

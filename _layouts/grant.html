@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<section class="intro">
+
+	<div class="wrap">
+
+		<h1>{{ page.project_name | default: page.title }}</h1>
+		{% if page.Applicant %}<p>{{ page.Applicant }}</p>{% endif %}
+
+	</div>
+
+</section>
+
+<section class="single{% if page.featured_image %} single--with-featured{% endif %}">
+
+	{% if page.featured_image %}
+	<figure class="single-featured__media">
+		<img src="{{ page.featured_image }}" alt="{{ page.project_name | default: page.title }} featured image" />
+	</figure>
+	{% endif %}
+
+	{% if page.Subject_Area or page.Term or page['Project identifier'] or page['DFG Programme'] or page['International Connection'] or page['Co-Investigator Professor'] or page['Cooperation Partner'] %}
+	<div class="grant-meta">
+		{% if page.Subject_Area %}<p><strong>Subject area:</strong> {{ page.Subject_Area }}</p>{% endif %}
+		{% if page.Term %}<p><strong>Term:</strong> {{ page.Term }}</p>{% endif %}
+		{% if page['Project identifier'] %}<p><strong>Project identifier:</strong> {{ page['Project identifier'] }}</p>{% endif %}
+		{% if page['DFG Programme'] %}<p><strong>DFG programme:</strong> {{ page['DFG Programme'] }}</p>{% endif %}
+		{% if page['International Connection'] %}<p><strong>International connection:</strong> {{ page['International Connection'] }}</p>{% endif %}
+		{% if page['Co-Investigator Professor'] %}<p><strong>Co-investigator professor:</strong> {{ page['Co-Investigator Professor'] }}</p>{% endif %}
+		{% if page['Cooperation Partner'] %}<p><strong>Cooperation partner:</strong> {{ page['Cooperation Partner'] }}</p>{% endif %}
+	</div>
+	{% endif %}
+
+	{{ page.content }}
+
+</section>

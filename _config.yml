@@ -13,6 +13,9 @@ collections:
   projects:
     output: true
     permalink: /project/:slug
+  grants:
+    output: true
+    permalink: /grants/:slug
   team:
     output: true
     permalink: /team/:slug
@@ -44,6 +47,12 @@ defaults:
   -
     scope:
       path: ""
+      type: "grants"
+    values:
+      layout: "grant-project"
+  -
+    scope:
+      path: ""
       type: "team"
     values:
       layout: "team"
@@ -54,7 +63,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
   
-sass:
+sass:profile__image
   style: compressed
 
 plugins:
