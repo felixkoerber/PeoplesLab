@@ -8,8 +8,15 @@
 	max-width: 68ch;
 	margin: 0 auto;
 	text-align: center;
+
+	.wrap {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 	
 	h1 {
+		margin: 0;
 		
 		@include mq(tabletp) {
 			white-space: pre-line;
@@ -17,7 +24,22 @@
 	}
 
 	p {
-		margin: 0;
+		margin: 8px 0 0;
+	}
+}
+
+.intro + .portfolio,
+.intro + .single-featured,
+.intro + .single,
+.grant-hero + .single {
+	margin-top: 16px;
+
+	@include mq(tabletp) {
+		margin-top: 20px;
+	}
+
+	@include mq(tabletl) {
+		margin-top: 24px;
 	}
 }
 

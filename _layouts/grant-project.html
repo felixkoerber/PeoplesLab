@@ -3,14 +3,12 @@ layout: default
 ---
 
 <section class="grant-hero">
-	<div class="wrap">
 		<div class="grant-hero__title">
 			<h1>{{ page.project_name | default: page.title }}</h1>
 			{% if page.Applicant or page.applicant %}
 			<p>{{ page.Applicant | default: page.applicant }}</p>
 			{% endif %}
 		</div>
-	</div>
 </section>
 
 <section class="single grant-single">

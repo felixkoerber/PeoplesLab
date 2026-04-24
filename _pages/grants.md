@@ -1,6 +1,5 @@
 ---
 title: Grants
-subtitle: Funded research lines and collaborations
 description: Overview of current and past grants
 permalink: /grants
 ---
