@@ -1,6 +1,6 @@
 ---
 title: Grants
-description: Overview of current and past grants
+description:
 permalink: /grants
 ---
 
