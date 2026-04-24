@@ -12,15 +12,15 @@
 	margin-top: 40px;
 
 	@include mq(tabletp) {
-		margin-top: 50px;
+		margin-top: 40px;
 	}
 
 	@include mq(tabletl) {
-		margin-top: 60px;
+		margin-top: 40px;
 	}
 
 	@include mq(laptop) {
-		margin-top: 80px;
+		margin-top: 40px;
 	}
 }
 
@@ -28,11 +28,6 @@
 	display: block;
 	width: $logo-width;
 	max-width: $logo-width;
-
-	@include mq(tabletp) {
-		float: left;
-		max-width: $logo-width;
-	}
 }
 
 .header__logo__img {
