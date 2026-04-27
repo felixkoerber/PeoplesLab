@@ -8,7 +8,7 @@ institution: 'Goethe University Frankfurt'
 email: 'ernst@psych.uni-frankfurt.de'
 ---
 
-Michael Ernst is a PhD student and research assistant in the People's Lab.
+**Michael Ernst** is a PhD student and research assistant in the People's Lab.
 With a background in neuro- and clinical psychology, he is interested in the dynamics of neural representation and information processing.
 
 His work focuses on modeling and perturbing the dynamics of speech and language, and on studying how human perception depends on these temporal and representational factors.

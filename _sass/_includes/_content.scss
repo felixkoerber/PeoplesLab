@@ -436,6 +436,7 @@
 		display: grid;
 		grid-template-columns: minmax(200px, 280px) minmax(150px, 320px);
 		gap: 15px;
+		align-items: center;
 		margin: 0 auto 40px;
 	}
 }
@@ -443,7 +444,7 @@
 .team-profile__image-wrap {
 	margin: 0 auto 20px;
 	max-width: 360px;
-	max-height: 280px;
+	max-height: 300px;
 	overflow: hidden;
 
 	@include mq(tabletp) {
@@ -453,10 +454,10 @@
 
 .team-profile__image {
 	display: block;
-	width: 100%;
+	width: auto;
 	max-width: 100%;
 	height: auto;
-	max-height: 280px;
+	max-height: 300px;
 	object-fit: contain;
 }
 

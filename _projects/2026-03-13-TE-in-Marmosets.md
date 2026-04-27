@@ -1,13 +1,14 @@
 ---
-title: 'Thesis - Spectral Transfer Entropy Reveals Predictive-Coding Network Dynamics of Auditory Deviance Detection in Common Marmosets'
+title: 'Thesis - Predictive Coding in Marmosets'
 subtitle: 'Felix Körber, Cosimo Iaia, Alessandro Tavano'
 date: '2026-03-13 00:00:00'
 description: 
 featured_image: '/images/Felix/Results_Prestim.png'
 ---
 
+#  Spectral Transfer Entropy Reveals Predictive-Coding Network Dynamics of Auditory Deviance Detection in Common Marmosets
 
-# Abstract
+## Abstract
 
 According to the predictive coding framework, mammalian brains make sense of the world by constantly comparing internal predictions with sensory input. This process is thought to be organized hierarchically, with information becoming increasingly abstract from primary sensory regions to higher cortical regions. The brief increase in negativity of scalp potentials following an unexpected stimulus after repeated identical stimuli is referred to as mismatch negativity. 
 
