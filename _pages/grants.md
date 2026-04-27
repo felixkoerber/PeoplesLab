@@ -1,6 +1,6 @@
 ---
 title: Grants
-description:
+description: A list of current Grants awarded to the People's Lab
 permalink: /grants
 ---
 

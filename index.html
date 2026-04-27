@@ -2,13 +2,16 @@
 layout: default
 title: Peoples Lab
 description: Auditory Perception and Cognition
+home_title: Projects
+home_subtitle: Explore our current and past research projects.
 featured_image: /images/social.jpg
 ---
 
 <section class="intro">
 
 	<div class="wrap">
-
+		<h1>{{ page.home_title | default: page.title }}</h1>
+		<p>{{ page.home_subtitle | default: page.description }}</p>
 	</div>
 
 </section>
