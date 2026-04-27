@@ -6,8 +6,6 @@ description:
 featured_image: '/images/demo/demo-square.jpg'
 ---
 
-![](/PeoplesLab/images/demo/demo-square.jpg)
-
 ## Background
 - Spoken language conveys information on multiple timescales (e.g., syllables, words, sentences)
 - Neural tracking of spoken language can be quantified using linear (e.g. cerebro-acoustic coherence) or non-linear measures (e.g. Mutual Information)

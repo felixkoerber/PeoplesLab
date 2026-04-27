@@ -6,7 +6,6 @@ description:
 featured_image: '/images/Felix/Results_Prestim.png'
 ---
 
-#  Spectral Transfer Entropy Reveals Predictive-Coding Network Dynamics of Auditory Deviance Detection in Common Marmosets
 
 ## Abstract
 
