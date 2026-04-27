@@ -16,7 +16,7 @@ layout: default
 {% if page.featured_image %}
 <section class="single-featured">
 
-	<div class="wrap">
+	<div>
 		<figure class="single-featured__media">
 			<img src="{{ page.featured_image | relative_url }}" alt="{{ page.title }} featured image" />
 		</figure>
@@ -25,4 +25,6 @@ layout: default
 </section>
 {% endif %}
 
+<section>
 {{ page.content }}
+</section>
